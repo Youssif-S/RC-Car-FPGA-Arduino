@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "light_out",
+					"strict" : false
+				},
+				{
+					"name" : "left_motor",
+					"strict" : false
+				},
+				{
+					"name" : "right_motor",
+					"strict" : false
+				},
+				{
+					"name" : "light_sens",
+					"strict" : false
+				},
+				{
+					"name" : "right_sens",
+					"strict" : false
+				},
+				{
+					"name" : "front_sens",
+					"strict" : false
+				},
+				{
+					"name" : "left_sens",
+					"strict" : false
+				},
+				{
+					"name" : "back_sens",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

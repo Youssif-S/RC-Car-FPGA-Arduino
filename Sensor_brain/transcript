@@ -1,0 +1,34 @@
+vsim -gui work.the_great_sensor_brain
+# vsim -gui work.the_great_sensor_brain 
+# Start time: 16:17:18 on Dec 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.the_great_sensor_brain(structure)
+# Compile of the_great_sensor_brain.vhd was successful.
+# Compile of the_great_sensor_brain.vhd was successful.
+quit -sim
+# End time: 16:18:21 on Dec 12,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+vsim work.the_great_sensor_brain
+# vsim work.the_great_sensor_brain 
+# Start time: 16:18:24 on Dec 12,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.the_great_sensor_brain(structure)
+# Compile of the_great_sensor_brain.vhd was successful.
+add wave -position end  sim:/the_great_sensor_brain/left_en
+add wave -position end  sim:/the_great_sensor_brain/left_for
+add wave -position end  sim:/the_great_sensor_brain/left_back
+add wave -position end  sim:/the_great_sensor_brain/right_en
+add wave -position end  sim:/the_great_sensor_brain/right_for
+add wave -position end  sim:/the_great_sensor_brain/right_back
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: youss  Hostname: YOUSSEF_LAPTOP  ProcessID: 10868
+#           Attempting to use alternate WLF file "./wlftafrjah".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftafrjah
+run
+# End time: 16:18:48 on Dec 12,2024, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 4
